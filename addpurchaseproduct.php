@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add Purchases</title>
+    <title>Add Purchase product</title>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -33,30 +33,34 @@
                     <div class="col-lg-12 col-md-12 d-flex flex-column align-items-center justify-content-center">
                     <div class="card mb-3">
                         <div class="card-body">
-                        <h5 class="card-title">Add Purchases</h5>
+                        <h5 class="card-title">Add Purchase Product</h5>
                     <form>
                         <div class="row">
-                            <div class="col-md-6">
-                                <label for="companyName" class="col-12 col-form-label">Company Name</label>
-                                <div class="col-12"> <input type="text" class="form-control" name="companyName" id="companyName"></div>
+                             
+                             <div class="col-md-6">
+                                <label for="productName" class="col-12 col-form-label">Product name</label>
+                                <div class="col-12"> <input type="text" class="form-control" name="productName" id="productName"></div>
                              </div>
                              <div class="col-md-6">
-                                <label for="supplierName" class="col-12 col-form-label">Supplier Name</label>
-                                <div class="col-12"> <input type="text" class="form-control" name="supplierName" id="supplierName"></div>
+                                <label for="quantity" class="col-12 col-form-label">Quantity</label>
+                                <div class="col-12"> <input type="text" class="form-control" name="quantity" id="quantity"></div>
                              </div>
                              <div class="col-md-6">
-                                <label for="purchaseNumber" class="col-12 col-form-label">Purchase order number</label>
-                                <div class="col-12"> <input type="text" class="form-control" name="purchaseNumber" id="purchaseNumber"></div>
+                                <label for="unit" class="col-12 col-form-label">Unit</label>
+                                <div class="col-12"> <input type="text" class="form-control" name="unit" id="unit"></div>
                              </div>
                              <div class="col-md-6">
-                                <label for="address" class="col-12 col-form-label">Address</label>
-                                <div class="col-12">  <textarea class="form-control" style="height: 10px" name="address" id="address"></textarea></div>
+                                <label for="price" class="col-12 col-form-label">Price</label>
+                                <div class="col-12"> <input type="text" class="form-control" name="price" id="price"></div>
                              </div>
                              <div class="col-md-6">
-                                <label for="payment" class="col-12 col-form-label">Mode of payment</label>
-                                <div class="col-12"> <input type="text" class="form-control" name="payment" id="payment"></div>
+                                <label for="total" class="col-12 col-form-label">Total</label>
+                                <div class="col-12"> <input type="text" class="form-control" name="total" id="total"></div>
                              </div>
-                           
+                             <div class="col-md-6">
+                                <label for="description" class="col-12 col-form-label">Description</label>
+                                <div class="col-12">  <textarea class="form-control" style="height: 10px" name="description" id="description"></textarea></div>
+                             </div>
                              <div class="mt-3">
                                 <button class="btn btn-primary me-3" type="submit">Submit</button>
                                 <a class="btn btn-outline-danger" type="submit" href="purchaselist.php">Cancel</a>
